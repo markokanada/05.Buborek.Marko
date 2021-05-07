@@ -28,7 +28,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .hovereditem{
     margin: 0% 0% 0% 0%;
-    float: right;
+
 }
 .Slider_01{
     max-width: 100%;
@@ -41,7 +41,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition: 00.5s;
 }
 .card01-image{
-    max-width: 90%;
     height: auto;
     transition: 0.5s;
 }
@@ -59,4 +58,110 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .gomb:hover{
     transform: scale(1.05);
+}
+
+@media screen and (max-width:576px) {
+    .szoveg{
+        font-size: 60%;
+    }
+    .card01-image{
+        margin: 0%;
+        margin:auto;
+        padding: 0%;
+        max-width: 100%;
+    }
+    .gomb02{
+        max-width: 100%;
+        height: auto;
+        padding-right: 15%;
+        padding-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .gomb01{
+        max-width: 100%;
+        padding-left: 20%;
+        height: auto;
+        padding-right: 20%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .szoveg{
+        font-size: 80%;
+    }
+    
+    .card01-image{
+        margin: auto;
+        max-width: 100%;
+    }
+    .gomb02{
+        max-width: 100%;
+        height: auto;
+        padding-right: 15%;
+        padding-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .gomb01{
+        max-width: 100%;
+        padding-left: 20%;
+        height: auto;
+        padding-right: 20%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        
+    }
+}
+
+@media screen and (max-width:992px) {
+    .szoveg{
+        font-size: 140%;
+    }
+    
+    .card01-image{
+        max-width: 190%;
+        margin:0%;
+    }
+    .gomb02{
+        max-width: 100%;
+        height: auto;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    .gomb01{
+        max-width: 100%;
+        padding-left: 20%;
+        height: auto;
+        padding-right: 20%;
+        
+    }
+}
+@media screen and (min-width:992px) {
+    .szoveg{
+        font-size: 180%;
+    }
+    
+    .card01-image{
+        max-width: 200%;
+        
+    }
+
+    .gomb02{
+        max-width: 100%;
+        height: auto;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    .gomb01{
+        max-width: 100%;
+        padding-left: 20%;
+        height: auto;
+        padding-right: 20%;
+        
+    }
 }
