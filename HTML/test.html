@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Tour de Debrecen</title>
+
+</head>
+<body >
+
+
+
+   
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="../img/Slider01/01.jpg">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="../img/Slider01/02.jpg">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="../img/Slider01/03.jpg">
+        </div>
+      
+
+        <script>
+            slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+          </script>
+</body>
+</html>
+<!-- EZ NEM EGY HÜLYE BIZTOS WEBOLDAL MEGÉRTÉSETEKET KÖSZÖNÖM :C -->

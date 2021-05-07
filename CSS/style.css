@@ -2,4 +2,10 @@
 .hovereditem:hover{
     color: #ff8a00 !important;
 }
+.icon{
+    transition: 0.5s;
+}
+.icon:hover{
+    transform: scale(1.15);
+}
 
