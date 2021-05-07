@@ -20,6 +20,7 @@
     
 </head>
 <body>
+
 <!-- Navbar kezdete-->
     <nav class="navbar navbar-expand-sm navbar-light bg-primary">
            <img src="../img/Header icon/icon.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
@@ -54,7 +55,17 @@
   </div>
 
         <!-- Slider01 vége-->
-    
+      <!-- Toast kezdete-->
+      <button class="btn btn-succes" onclick="Toasty()"> Lorem</button>
+
+      <div class="toast toast01" id="toast01" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header"> <strong class="mr-auto">Test</strong>
+          <small>test2</small>
+        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close"> <span aria-hidden="true"> &times;</span></button>
+        </div>
+        <div class="toast-body"> Test2</div>
+      </div>
+  <!-- Toast vége-->
 <!--Card01 (Mi az "Arrowverse"?) kezdete-->
 <div class="card card01 mx-auto my-5 py-2 px-2 card01-body">
   <div class="card-body ">
@@ -192,8 +203,10 @@ function showSlides() {
 }
 </script>
 <!--Slider JS vége-->
+<!-- magnific popup JS kezdete-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
-
+<!-- magnific popup JS vége-->
+<!-- Gallery JS kezdete-->
 <script>
 
 $(document).ready(function(){
@@ -226,5 +239,31 @@ $('.gallery').magnificPopup({
 });
   
   </script>
+  <!-- Gallery JS vége-->
+
+  <!-- popper js kezdete-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <!-- popper js vége-->
+
+  <!-- Toast Showup JS kezdete-->
+  <script>
+    var option = 
+    {
+      Animation:true,
+      delay:20000
+
+    };
+
+    function Toasty()
+    {
+      var toastHTMLElement = document.getElementById("toast01");
+
+      var toastElement = new bootstrap.Toast(toastHTMLElement, option);
+
+      toastElement.show()
+    }
+  </script>
+
+  <!-- Toast Showup JS vége-->
 </body>
 </html>

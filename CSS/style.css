@@ -232,3 +232,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .gallery .image-container .image:hover img{
     transform: scale(1.4);
 }
+
+.toast01{
+    position: absolute;
+    top: 20px;
+    right:20px ;
+}
