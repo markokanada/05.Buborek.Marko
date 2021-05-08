@@ -22,7 +22,7 @@
 <body>
 
 <!-- Navbar kezdete-->
-    <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
            <img src="../img/Header icon/icon.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
           <a class="navbar-brand text-white hovereditem fw-bold" href="#"> <h1>Arrowverse</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,15 +56,16 @@
 
         <!-- Slider01 vége-->
       <!-- Toast kezdete-->
-      <button class="btn btn-succes" onclick="Toasty()"> Lorem</button>
+<div id="toast" class="toast bg-info" data-animation="true" data-autohide="false" role="alert" aria-live="assertive" aria-atomic="true" style=" position: fixed; bottom: 10px; right:10px;">
+  <div class="toast-header bg-primary">
+    <img src="../img/Toast icon/robot-icon.png" width="45" height="45" class="rounded mr-2" alt="Mr.Robot">
+    <strong class="mr-auto text-white align-middle">Rendszer</strong>
+  </div>
+  <div class="toast-body text-white">
+   <span> Szia! Az </span> <span class=" text-lowercase"> oldal sütiket használ! </span> <span> Azzal,</span><span class="text-lowercase"> hogy tovább tekersz automatikusan elfogadod a sütik használatát!</span>
 
-      <div class="toast toast01" id="toast01" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header"> <strong class="mr-auto">Test</strong>
-          <small>test2</small>
-        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close"> <span aria-hidden="true"> &times;</span></button>
-        </div>
-        <div class="toast-body"> Test2</div>
-      </div>
+  </div>
+</div>
   <!-- Toast vége-->
 <!--Card01 (Mi az "Arrowverse"?) kezdete-->
 <div class="card card01 mx-auto my-5 py-2 px-2 card01-body">
@@ -104,14 +105,14 @@
 
   <div class="image-container">
 
-      <a href="images/ice-cream1.jpg" class="image ice-cream">
-          <img src="images/ice-cream1.jpg" alt="">
+      <a href="../img/Slider01/01.jpg" class="image Flash">
+          <img src="../img/Slider01/01.jpg" alt="">
       </a>
-      <a href="images/ice-cream2.jpg" class="image ice-cream">
-          <img src="images/ice-cream2.jpg" alt="">
+      <a href="../img/Slider01/02.jpg" class="image Arrow">
+          <img src="../img/Slider01/02.jpg" alt="">
       </a>
-      <a href="images/ice-cream3.jpg" class="image ice-cream">
-          <img src="images/ice-cream3.jpg" alt="">
+      <a href="images/../img/Slider01/03.jpg" class="image Crossover">
+          <img src="../img/Slider01/03.jpg" alt="">
       </a>
 
       <a href="images/chocolate1.jpg" class="image chocolate">
@@ -199,7 +200,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
+  setTimeout(showSlides, 8000); // Change image every 5 seconds
 }
 </script>
 <!--Slider JS vége-->
@@ -247,23 +248,12 @@ $('.gallery').magnificPopup({
 
   <!-- Toast Showup JS kezdete-->
   <script>
-    var option = 
-    {
-      Animation:true,
-      delay:20000
-
-    };
-
-    function Toasty()
-    {
-      var toastHTMLElement = document.getElementById("toast01");
-
-      var toastElement = new bootstrap.Toast(toastHTMLElement, option);
-
-      toastElement.show()
-    }
-  </script>
-
+    let toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    let toastList = toastElList.map(function (toastEl){
+      return new bootstrap.Toast(toastEl)
+    })
+    toastList[0].show()
+</script>
   <!-- Toast Showup JS vége-->
 </body>
 </html>
