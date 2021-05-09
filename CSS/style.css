@@ -8,7 +8,7 @@
 .icon:hover{
     transform: scale(1.15);
 }
-.card01, .card02, .card03, .card04, .card05, .card06, .card07, .card08, .card09, .card10, .card11, .card12, .card13, .card14, .card15, .card16, .card17, .card18, .card19, .card20, .card21, .card22, .card23, .card24, .card25, .card26, .card27, .card28, .card29, .card30, .card31 { 
+.card01, .card02, .card03, .card04, .card05, .card06, .card07, .card08, .card09, .card10, .card11, .card12, .card13, .card14, .card15, .card16, .card17, .card18, .card19, .card20, .card21, .card22, .card23, .card24, .card25, .card26, .card27, .card28, .card29, .card30, .card31, .card32, .card33, .card34, .card35, .card36, .card37 { 
     width: 90% ;
     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.25);
     
@@ -31,7 +31,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0% 0% 0% 0%;
 
 }
-.Slider_01, .Slider_02, .Slider_03 .Slider_04, .Slider_05, .Slider_06, .Slider_07, .Slider_08, .Slider_09, .Slider_10, .Slider_11, .Slider_12{
+.Slider_01, .Slider_02, .Slider_03 .Slider_04, .Slider_05, .Slider_06, .Slider_07, .Slider_08, .Slider_09, .Slider_10, .Slider_11, .Slider_12, .Slider_13, .Slider_14{
     max-width: 100%;
 }
 
@@ -41,20 +41,20 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 25%;
     transition: 00.5s;
 }
-.card01-image, .card02-image , .card03-image, .card04-image, .card05-image, .card06-image, .card07-image, .card08-image, .card09-image, .card10-image, .card11-image, .card12-image, .card13-image, .card14-image , .card15-image,  .card16-image,  .card17-image,  .card18-image,  .card19-image ,  .card20-image , .card21-image, .card22-image, .card23-image, .card24-image, .card25-image, .card26-image, .card27-image, .card28-image, .card29-image, .card30-image, .card31-image{
+.card01-image, .card02-image , .card03-image, .card04-image, .card05-image, .card06-image, .card07-image, .card08-image, .card09-image, .card10-image, .card11-image, .card12-image, .card13-image, .card14-image , .card15-image,  .card16-image,  .card17-image,  .card18-image,  .card19-image ,  .card20-image , .card21-image, .card22-image, .card23-image, .card24-image, .card25-image, .card26-image, .card27-image, .card28-image, .card29-image, .card30-image, .card31-image, .card32-image, .card33-image, .card34-image, .card35-image, .card36-image, .card37-image{
     height: auto;
     transition: 0.5s;
 }
 .content{
     text-align: justify;
 }
-.card01-image:hover, .card02-image:hover, .card03-image:hover ,.card04-image:hover, .card05-image:hover, .card06-image:hover, .card07-image:hover, .card08-image:hover, .card09-image:hover, .card10-image:hover, .card11-image:hover, .card12-image:hover, .card13-image:hover, .card14-image:hover, .card15-image:hover, .card16-image:hover, .card17-image:hover, .card18-image:hover, .card19-image:hover, .card20-image:hover, .card21-image:hover, .card22-image:hover, .card23-image:hover, .card24-image:hover, .card25-image:hover, .card26-image:hover, .card27-image:hover, .card28-image:hover, .card29-image:hover, .card30-image:hover, .card31-image:hover{
+.card01-image:hover, .card02-image:hover, .card03-image:hover ,.card04-image:hover, .card05-image:hover, .card06-image:hover, .card07-image:hover, .card08-image:hover, .card09-image:hover, .card10-image:hover, .card11-image:hover, .card12-image:hover, .card13-image:hover, .card14-image:hover, .card15-image:hover, .card16-image:hover, .card17-image:hover, .card18-image:hover, .card19-image:hover, .card20-image:hover, .card21-image:hover, .card22-image:hover, .card23-image:hover, .card24-image:hover, .card25-image:hover, .card26-image:hover, .card27-image:hover, .card28-image:hover, .card29-image:hover, .card30-image:hover, .card31-image:hover, .card32-image:hover, .card33-image:hover, .card34-image:hover, .card35-image:hover, .card36-image:hover, .card37-image:hover{
     transform: scale(1.05);
 }
-.card01-body, .card02-body, .card03-body, .card04-body, .card05-body, .card06-body, .card07-body, .card08-body, .card09-body, .card10-body , .card11-body, .card12-body, .card13-body, .card14-body, .card15-body, .card16-body, .card17-body, .card18-body, .card19-body, .card20-body, .card21-body, .card22-body, .card23-body, .card24-body, .card25-body, .card26-body, .card27-body, .card28-body, .card29-body, .card30-body, .card31-body {
+.card01-body, .card02-body, .card03-body, .card04-body, .card05-body, .card06-body, .card07-body, .card08-body, .card09-body, .card10-body , .card11-body, .card12-body, .card13-body, .card14-body, .card15-body, .card16-body, .card17-body, .card18-body, .card19-body, .card20-body, .card21-body, .card22-body, .card23-body, .card24-body, .card25-body, .card26-body, .card27-body, .card28-body, .card29-body, .card30-body, .card31-body, .card32-body, .card33-body, .card34-body, .card35-body, .card36-body, .card37-body {
     transition: 00.5s;
 }
-.card01-body:hover, .card02-body:hover, .card03-body:hover, .card04-body:hover, .card05-body:hover, .card06-body:hover, .card07-body:hover, .card08-body:hover, .card09-body:hover, .card10-body:hover , .card11-body:hover, .card12-body:hover, .card13-body:hover, .card14-body:hover, .card15-body:hover, .card16-body:hover, .card17-body:hover, .card18-body:hover, .card19-body:hover, .card20-body:hover, .card21-body:hover, .card22-body:hover, .card23-body:hover, .card24-body:hover, .card25-body:hover, .card26-body:hover, .card27-body:hover, .card28-body:hover, .card29-body:hover, .card30-body:hover, .card31-body:hover{
+.card01-body:hover, .card02-body:hover, .card03-body:hover, .card04-body:hover, .card05-body:hover, .card06-body:hover, .card07-body:hover, .card08-body:hover, .card09-body:hover, .card10-body:hover , .card11-body:hover, .card12-body:hover, .card13-body:hover, .card14-body:hover, .card15-body:hover, .card16-body:hover, .card17-body:hover, .card18-body:hover, .card19-body:hover, .card20-body:hover, .card21-body:hover, .card22-body:hover, .card23-body:hover, .card24-body:hover, .card25-body:hover, .card26-body:hover, .card27-body:hover, .card28-body:hover, .card29-body:hover, .card30-body:hover, .card31-body:hover, .card32-body:hover, .card33-body:hover, .card34-body:hover, .card35-body:hover, .card36-body:hover, .card37-body:hover {
     transform: scale(1.05);
 }
 .gomb:hover{
@@ -62,7 +62,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen and (max-width:360px) {
-    .card02-text, .szoveg01,.card03-text , .card04-text, .card05-text, .card06-text, .card07-text, .card08-text, .card09-text, .card10-text, .card11-text, .card12-text, .card13-text, .card14-text, .card15-text, .card16-text, .card17-text, .card18-text, .card19-text, .card20-text, .card21-text, .card22-text, .card23-text, .card24-text, .card25-text, .card26-text, .card27-text, .card28-text, .card29-text, .card30-text, .card31-text{
+    .card02-text, .szoveg01,.card03-text , .card04-text, .card05-text, .card06-text, .card07-text, .card08-text, .card09-text, .card10-text, .card11-text, .card12-text, .card13-text, .card14-text, .card15-text, .card16-text, .card17-text, .card18-text, .card19-text, .card20-text, .card21-text, .card22-text, .card23-text, .card24-text, .card25-text, .card26-text, .card27-text, .card28-text, .card29-text, .card30-text, .card31-text, .card32-text, .card33-text, .card34-text, .card35-text, .card36-text, .card37-text{
         font-size: 100% !important;
     }
 
