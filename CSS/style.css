@@ -8,7 +8,7 @@
 .icon:hover{
     transform: scale(1.15);
 }
-.card01, .card02, .card03, .card04, .card05, .card06, .card07, .card08, .card09, .card10, .card11, .card12, .card13 { 
+.card01, .card02, .card03, .card04, .card05, .card06, .card07, .card08, .card09, .card10, .card11, .card12, .card13, .card14, .card15 { 
     width: 90% ;
     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.25);
     
@@ -31,7 +31,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0% 0% 0% 0%;
 
 }
-.Slider_01, .Slider_02{
+.Slider_01, .Slider_02, .Slider_03{
     max-width: 100%;
 }
 
@@ -41,20 +41,20 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 25%;
     transition: 00.5s;
 }
-.card01-image, .card02-image , .card03-image, .card04-image, .card05-image, .card06-image, .card07-image, .card08-image, .card09-image, .card10-image, .card11-image, .card12-image, .card13-image{
+.card01-image, .card02-image , .card03-image, .card04-image, .card05-image, .card06-image, .card07-image, .card08-image, .card09-image, .card10-image, .card11-image, .card12-image, .card13-image, .card14-image , .card15-image{
     height: auto;
     transition: 0.5s;
 }
 .content{
     text-align: justify;
 }
-.card01-image:hover, .card02-image:hover, .card03-image:hover ,.card04-image:hover, .card05-image:hover, .card06-image:hover, .card07-image:hover, .card08-image:hover, .card09-image:hover, .card10-image:hover, .card11-image:hover, .card12-image:hover, .card13-image:hover{
+.card01-image:hover, .card02-image:hover, .card03-image:hover ,.card04-image:hover, .card05-image:hover, .card06-image:hover, .card07-image:hover, .card08-image:hover, .card09-image:hover, .card10-image:hover, .card11-image:hover, .card12-image:hover, .card13-image:hover, .card14-image:hover, .card15-image:hover{
     transform: scale(1.05);
 }
-.card01-body, .card02-body, .card03-body, .card04-body, .card05-body, .card06-body, .card07-body, .card08-body, .card09-body, .card10-body , .card11-body, .card12-body, .card13-body{
+.card01-body, .card02-body, .card03-body, .card04-body, .card05-body, .card06-body, .card07-body, .card08-body, .card09-body, .card10-body , .card11-body, .card12-body, .card13-body, .card14-body, .card15-body{
     transition: 00.5s;
 }
-.card01-body:hover, .card02-body:hover, .card03-body:hover, .card04-body:hover, .card05-body:hover, .card06-body:hover, .card07-body:hover, .card08-body:hover, .card09-body:hover, .card10-body:hover , .card11-body:hover, .card12-body:hover, .card13-body:hover{
+.card01-body:hover, .card02-body:hover, .card03-body:hover, .card04-body:hover, .card05-body:hover, .card06-body:hover, .card07-body:hover, .card08-body:hover, .card09-body:hover, .card10-body:hover , .card11-body:hover, .card12-body:hover, .card13-body:hover, .card14-body:hover, .card15-body:hover{
     transform: scale(1.05);
 }
 .gomb:hover{
@@ -62,7 +62,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen and (max-width:360px) {
-    .card02-text, .szoveg01,.card03-text , .card04-text, .card05-text, .card06-text, .card07-text, .card08-text, .card09-text, .card10-text, .card11-text, .card12-text, .card13-text{
+    .card02-text, .szoveg01,.card03-text , .card04-text, .card05-text, .card06-text, .card07-text, .card08-text, .card09-text, .card10-text, .card11-text, .card12-text, .card13-text, .card14-text, .card15-text{
         font-size: 100% !important;
     }
 
@@ -189,7 +189,18 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     .szoveg02{
         font-size: 200%;
     }
+
+    /*iframe{
+        width: 100%;
+        height: 500%;
+        margin: auto;
+    }
+    */
 }
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 *{
     margin: 0; padding: 0;
