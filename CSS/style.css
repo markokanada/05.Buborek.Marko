@@ -69,7 +69,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen and (min-width:360px) {
-    .szoveg01{
+    .szoveg01, .responsive-text{
         font-size: 60%;
     }
     .card01-image{
@@ -101,7 +101,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen and (max-width:768px) {
-    .szoveg01{
+    .szoveg01, .responsive-text{
         font-size: 80%;
     }
     
@@ -129,7 +129,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media screen and (max-width:992px) {
-    .szoveg01{
+    .szoveg01, .responsive-text{
         font-size: 140%;
     }
     
@@ -156,7 +156,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
 @media screen and (min-width:992px) {
-    .szoveg01{
+    .szoveg01 ,.responsive-text{
         font-size: 180%;
     }
     
@@ -190,12 +190,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 200%;
     }
 
-    /*iframe{
-        width: 100%;
-        height: 500%;
-        margin: auto;
-    }
-    */
+
 }
 
 .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
