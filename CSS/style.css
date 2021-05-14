@@ -60,12 +60,45 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .gomb:hover{
     transform: scale(1.05);
 }
+@media screen and (max-width:240px)
+{
+    .tables{
+        max-width: 5% !important;
+        font-size: 5% !important;
+    }  
+}
+
+@media screen and (max-width:200px)
+{
+    .tables{
+        max-width: 20% !important;
+        font-size: 30% !important;
+    }  
+}
+
+@media screen and (max-width:288px){
+    .tables{
+        max-width: 40% !important;
+        font-size: 60% !important;
+    }   
+}
 
 @media screen and (max-width:360px) {
     .card02-text, .szoveg01,.card03-text , .card04-text, .card05-text, .card06-text, .card07-text, .card08-text, .card09-text, .card10-text, .card11-text, .card12-text, .card13-text, .card14-text, .card15-text, .card16-text, .card17-text, .card18-text, .card19-text, .card20-text, .card21-text, .card22-text, .card23-text, .card24-text, .card25-text, .card26-text, .card27-text, .card28-text, .card29-text, .card30-text, .card31-text, .card32-text, .card33-text, .card34-text, .card35-text, .card36-text, .card37-text, .card38-text, .card39-text, .card40-text, .card41-text, .card42-text, .card43-text, .card44-text, .card45-text, .card46-text, .card47-text, .card48-text, .card49-text, .card50-text, .card51-text, .card52-text, .card53-text, .card54-text, .card55-text, .card56-text, .card57-text, .card58-text, .card59-text, .card60-text, .card61-text, .card62-text, .card63-text, .card64-text, .card65-text, .card66-text, .card67-text, .card68-text, .card69-text, .card70-text, .card71-text, .card72-text, .card73-text, .card74-text, .card75-text, .card76-text, .card77-text, .card78-text, .card79-text, .card80-text{
         font-size: 100% !important;
     }
+    .tables{
+        max-width: 50% !important;
+        font-size: 70% !important;
+    }
 
+}
+
+@media screen and (max-width:375px){
+    .tables{
+        max-width: 100% !important;
+        font-size: 80% !important;
+    }  
 }
 
 @media screen and (min-width:360px) {
@@ -94,6 +127,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin-top: 5%;
         margin-bottom: 10%;
         
+    }
+    .tables{
+        max-width: 80%;
+        font-size: 90%;
     }
 
     
@@ -126,6 +163,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin-bottom: 10%;
         
     }
+    .tables{
+        max-width: 100%;
+        font-size: 100%;
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -153,6 +194,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin-top: auto;
         margin-bottom: auto;
         
+    }
+    .tables{
+        max-width: 100%;
+        font-size: 100%;
     }
 }
 @media screen and (min-width:992px) {
@@ -189,7 +234,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     .szoveg02{
         font-size: 200%;
     }
-
+    .tables{
+        max-width: 100%;
+        font-size: 100%;
+    }
 
 }
 
@@ -300,6 +348,7 @@ h1, p, li, ul, ol{
 .tables{
     margin:auto;
     border: 2px solid black;
+    
 }
 
 .tds{
